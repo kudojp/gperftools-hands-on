@@ -9,3 +9,10 @@ visualize:
 	# /Users/daiki-kudo/repos/gperftools/src/pprof --gv main test.prof --lib_prefix /usr/local/opt/llvm/lib/c++
 	# This is pprof installed by `brew install graphviz`
 	pprof --gv main test.prof --lib_prefix /usr/local/opt/llvm/lib/c++
+
+	# ⏫ This failed with:
+	# error: /Library/Developer/CommandLineTools/usr/bin/otool-classic: can't open file: /usr/lib/liboah.dylib (No such file or directory)
+	# error: /Library/Developer/CommandLineTools/usr/bin/otool-classic: can't open file: /usr/lib/liboah.dylib (No such file or directory)
+	# error: /Library/Developer/CommandLineTools/usr/bin/otool-classic: can't open file: /usr/lib/liboah.dylib (No such file or directory)
+	# error: /Library/Developer/CommandLineTools/usr/bin/otool-classic: can't open file: /usr/lib/liboah.dylib (No such file or directory)
+	# error: /Library/Developer/CommandLineTools/usr/bin/otool-classic: can't open file: /usr/lib/libobjc.A.dylib (No such file or directory)
